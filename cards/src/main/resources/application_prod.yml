@@ -1,0 +1,17 @@
+spring:
+ config:
+  activate:
+   on-profile: "prod"
+
+build:
+ version: "1.0"
+
+accounts:
+ message: "Welcome to the Banking Service FROM  PRODUCTION SERVICE FROM CARDS MS"
+ contactDetails:
+  name: "User1"
+  email: "user1@gmail.com"
+ 
+ OnCallSupport:
+  - 43543635
+  - 433242352

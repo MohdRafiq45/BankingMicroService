@@ -1,0 +1,37 @@
+server:
+  port: 8090
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  config:
+   import:
+    - "application_qa.yml"
+    - "application_prod.yml"
+  profiles:
+   active:
+    - "prod"
+    
+    
+build:
+ version: "3.0"
+
+accounts:
+ message: "Welcome to the Banking Service  related local APIs FROM LOANS MS"
+ contactDetails:
+  name: "User1"
+  email: "user1@gmail.com"
+ 
+ OnCallSupport:
+  - 43543635
+  - 433242352

@@ -1,0 +1,13 @@
+
+build:
+ version: "1.0"
+
+accounts:
+ message: "Welcome to the Banking Service FROM  PRODUCTION SERVICE"
+ contactDetails:
+  name: "User1"
+  email: "user1@gmail.com"
+ 
+ OnCallSupport:
+  - 43543635
+  - 433242352

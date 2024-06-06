@@ -1,0 +1,9 @@
+Spring profiles
+spring provides a great tool for grouping congiguration properties into so-called profiels(dev,qa,prod)
+allowing us to activate a bunch of configurations based on the active profile
+
+
+profiles are perfect for setting up our application for different environments, but they are also being used in another
+use cases like bean creationon basesd on a profile etc
+
+so  basically a profile can influence the applcation properties loaded and beans which are loaded into the spring context

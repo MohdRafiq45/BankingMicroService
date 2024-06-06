@@ -1,0 +1,16 @@
+
+    
+    
+build:
+ version: "3.0"
+
+accounts:
+ message: "Welcome to the Banking Service  related local APIs"
+ contactDetails:
+  name: "User1"
+  email: "user1@gmail.com"
+ 
+ OnCallSupport:
+  - 43543635
+  - 433242352
+  
