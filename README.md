@@ -1,2 +1,2 @@
 # BankingMicroService
-Spring MicroService project for banking project
+Spring MicroService project for banking service
